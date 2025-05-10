@@ -1,4 +1,4 @@
-# Stack Provider - Modern Web, Desktop & Mobile Development Agency
+# Stack Provider - Modern Web, Desktop & Mobile Development AI Integration Agency
 
 ![Stack Provider Banner](https://via.placeholder.com/1200x400/4F46E5/FFFFFF?text=Stack+Provider+-+Modern+Web,+Desktop+%26+Mobile+Development)
 
