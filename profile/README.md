@@ -61,9 +61,10 @@ Our team of expert developers combines technical excellence with strategic think
 - **React.js** - UI component library for interactive interfaces
 - **TypeScript** - Static typing for safer, more maintainable code
 - **Tailwind CSS** - Utility-first CSS framework
-- **Material UI / Chakra UI** - Component libraries for rapid development
+- **Material UI / Shadcn UI** - Component libraries for rapid development
 
 ### Backend
+- **Server Actions** - Server Actions are asynchronous functions that are executed on the server in Next.js
 - **Node.js** - JavaScript runtime for server-side applications
 - **Express.js** - Web framework for Node.js
 - **NestJS** - Progressive Node.js framework for structured applications
@@ -147,7 +148,7 @@ Our team of expert developers combines technical excellence with strategic think
 - **Results**: 40% increase in conversion rate, 99.9% uptime
 
 ### Enterprise Dashboard
-- **Tech Stack**: React.js, Express.js, MongoDB, Chart.js
+- **Tech Stack**: React.js, Express.js, MongoDB, Chart.js, ShadcnUI
 - **Features**: Real-time analytics, role-based access control, data visualization
 - **Results**: Reduced reporting time by 70%, improved decision-making process
 
@@ -157,7 +158,7 @@ Our team of expert developers combines technical excellence with strategic think
 - **Results**: 100,000+ downloads, 4.8/5 average rating
 
 ### Desktop Productivity Suite
-- **Tech Stack**: Electron.js, React.js, SQLite
+- **Tech Stack**: Electron.js, React.js, SQLite, MongoDB
 - **Features**: Offline capabilities, file system integration, automatic updates
 - **Results**: Deployed to 500+ enterprise workstations, 35% productivity improvement
 
@@ -167,7 +168,7 @@ Ready to bring your project to life? Get in touch with our team to discuss how w
 
 - **Email**: contact@stackprovider.com
 - **Website**: https://stackprovider.com
-- **GitHub**: https://github.com/StackProvider
+- **GitHub**: https://github.com/StackProviders
 - **LinkedIn**: https://linkedin.com/company/stackprovider
 
 ## 📄 License
