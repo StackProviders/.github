@@ -148,7 +148,7 @@ Our team of expert developers combines technical excellence with strategic think
 - **Results**: 40% increase in conversion rate, 99.9% uptime
 
 ### Enterprise Dashboard
-- **Tech Stack**: React.js, Express.js, MongoDB, Chart.js, ShadcnUI
+- **Tech Stack**: Next.js, React.js, Express.js, MongoDB, Chart.js, ShadcnUI
 - **Features**: Real-time analytics, role-based access control, data visualization
 - **Results**: Reduced reporting time by 70%, improved decision-making process
 
