@@ -172,7 +172,7 @@ Our team of expert developers combines technical excellence with strategic think
 - **Features**: Product catalog, user authentication, payment processing, order management, and Full Inventory Management System 
 - **Results**: 60% increase in conversion rate, 99.9% uptime  
 
-### [Team Ranker Dashboard](https://app.teamranker.com)
+### [Team Ranker Dashboard](https://app.teamranker.com?ref=stackprovider)
 - **Tech Stack**: Next.js, React.js, Node.js, MongoDB, Chart.js, ShadcnUI
 - **Features**: Real-time analytics, role-based access control, data visualization, Full SEO Backlink Automation Dashboard
 - **Results**: Reduced reporting time by 70%, improved decision-making process  
