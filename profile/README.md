@@ -1,6 +1,6 @@
 # Stack Provider - Modern Web, Desktop & Mobile Development, AI Integration Agency
 
-![Stack Provider Banner](https://raw.githubusercontent.com/StackProviders/.github/refs/heads/main/a-website-hero-section-banner-for-a-soft_UAJ1AEmCSvykAbnhHpC1Fg_ODB8Os0SSuqwnfpsIV56Dw.jpeg))
+![Stack Provider Banner](https://raw.githubusercontent.com/StackProviders/.github/refs/heads/main/a-website-hero-section-banner-for-a-soft_UAJ1AEmCSvykAbnhHpC1Fg_ODB8Os0SSuqwnfpsIV56Dw.jpeg)
 
 <div align="center">
   
