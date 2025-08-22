@@ -198,21 +198,24 @@ Our team of expert developers combines technical excellence with strategic think
 
 <div align="center">
 
-### Founder  
-
-<img src="https://avatars.githubusercontent.com/u/34921044?v=4" alt="Founder - CodeWithRakibul" width="120" style="border-radius:50%"/>  
-
-**Rakibul Hasan**  
-🔗 [GitHub: CodeWithRakibul](https://github.com/CodeWithRakibul)  
-
----
-
-### CEO  
-
-<img src="https://avatars.githubusercontent.com/u/139013851?s=400&u=f221ecaaa14d99cd4e3625e2c9cafd180eacf774&v=4" alt="CEO - Md Minhaj" width="120" style="border-radius:50%"/>  
-
-**Md Minhaj**  
-🔗 [GitHub: prominhaj](https://github.com/prominhaj)  
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/CodeWithRakibul">
+        <img src="https://avatars.githubusercontent.com/u/34921044?v=4" width="140" style="border-radius:50%;" alt="Founder - Rakibul Hasan"/><br/>
+        <b>Rakibul Hasan</b><br/>
+        <sub>Founder</sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/prominhaj">
+        <img src="https://avatars.githubusercontent.com/u/139013851?s=400&u=f221ecaaa14d99cd4e3625e2c9cafd180eacf774&v=4" width="140" style="border-radius:50%;" alt="CEO - Md Minhaj"/><br/>
+        <b>Md Minhaj</b><br/>
+        <sub>CEO</sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 </div>
 
