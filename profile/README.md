@@ -168,7 +168,7 @@ Our team of expert developers combines technical excellence with strategic think
 ## 🏆 Featured Projects
 
 ### [E-Commerce Platform Little Shopno](https://littleshopno.com)
-- **Tech Stack**: Next.js, React, Node.js, MongoDB, Prisma, Bkash, Nagad, and Bank
+- **Tech Stack**: Next.js, React, Node.js, MongoDB, Prisma, Bkash, Nagad
 - **Features**: Product catalog, user authentication, payment processing, order management, and Full Inventory Management System 
 - **Results**: 60% increase in conversion rate, 99.9% uptime  
 
