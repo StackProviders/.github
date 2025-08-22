@@ -167,33 +167,6 @@ Our team of expert developers combines technical excellence with strategic think
 
 ## 🏆 Featured Projects
 
-### E-Commerce Platform
-- **Tech Stack**: Next.js, Node.js, PostgreSQL, Prisma, Stripe
-- **Features**: Product catalog, user authentication, payment processing, order management
-- **Results**: 40% increase in conversion rate, 99.9% uptime
-
-### Enterprise Dashboard
-- **Tech Stack**: Next.js, React.js, Express.js, MongoDB, Chart.js, ShadcnUI
-- **Features**: Real-time analytics, role-based access control, data visualization
-- **Results**: Reduced reporting time by 70%, improved decision-making process
-
-### AI-Powered Customer Support
-- **Tech Stack**: Next.js, OpenAI GPT-4, Langchain, Vercel AI SDK
-- **Features**: Natural language understanding, context-aware responses, human handoff
-- **Results**: 85% reduction in response time, 24/7 customer support coverage
-
-### Cross-Platform Mobile App
-- **Tech Stack**: React Native, Node.js, Firebase
-- **Features**: Offline-first architecture, push notifications, social authentication
-- **Results**: 100,000+ downloads, 4.8/5 average rating
-
-### Desktop Productivity Suite
-- **Tech Stack**: Electron.js, React.js, SQLite, MongoDB
-- **Features**: Offline capabilities, file system integration, automatic updates
-- **Results**: Deployed to 500+ enterprise workstations, 35% productivity improvement
-
-## 🏆 Featured Projects
-
 ### [E-Commerce Platform](https://example-ecommerce.com)
 - **Tech Stack**: Next.js, Node.js, PostgreSQL, Prisma, Stripe  
 - **Features**: Product catalog, user authentication, payment processing, order management  
@@ -221,18 +194,29 @@ Our team of expert developers combines technical excellence with strategic think
 
 ---
 
-## 👨‍💻 Founder & CEO
+## 👨‍💼 Leadership Team
 
 <div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/100123456?v=4" alt="Founder & CEO" width="120" style="border-radius:50%"/>
+### Founder  
 
-### Md Minhaj  
-**Founder & CEO - Stack Provider**  
-🔗 [GitHub Profile](https://github.com/prominhaj)  
+<img src="https://avatars.githubusercontent.com/u/34921044?v=4" alt="Founder - CodeWithRakibul" width="120" style="border-radius:50%"/>  
+
+**Rakibul Hasan**  
+🔗 [GitHub: CodeWithRakibul](https://github.com/CodeWithRakibul)  
+
+---
+
+### CEO  
+
+<img src="https://avatars.githubusercontent.com/u/139013851?s=400&u=f221ecaaa14d99cd4e3625e2c9cafd180eacf774&v=4" alt="CEO - Md Minhaj" width="120" style="border-radius:50%"/>  
+
+**Md Minhaj**  
+🔗 [GitHub: prominhaj](https://github.com/prominhaj)  
 
 </div>
 
+---
 ## 📞 Contact Us
 
 Ready to bring your project to life? Get in touch with our team to discuss how we can help you achieve your goals.
