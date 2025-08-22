@@ -203,7 +203,7 @@ Our team of expert developers combines technical excellence with strategic think
     <td align="center">
       <a href="https://github.com/CodeWithRakibul">
         <img src="https://avatars.githubusercontent.com/u/34921044?v=4" width="140" style="border-radius:50%;" alt="Founder - Rakibul Hasan"/><br/>
-        <b>Rakibul Hasan</b><br/>
+        <b>Md Rakibul Islam</b><br/>
         <sub>Founder</sub>
       </a>
     </td>
