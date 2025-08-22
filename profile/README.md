@@ -167,10 +167,10 @@ Our team of expert developers combines technical excellence with strategic think
 
 ## 🏆 Featured Projects
 
-### [E-Commerce Platform](https://example-ecommerce.com)
-- **Tech Stack**: Next.js, Node.js, PostgreSQL, Prisma, Stripe  
-- **Features**: Product catalog, user authentication, payment processing, order management  
-- **Results**: 40% increase in conversion rate, 99.9% uptime  
+### [E-Commerce Platform Little Shopno](https://littleshopno.com)
+- **Tech Stack**: Next.js, Node.js, MongoDB, Prisma, Bkash  
+- **Features**: Product catalog, user authentication, payment processing, order management, and Full Inventory Management System 
+- **Results**: 60% increase in conversion rate, 99.9% uptime  
 
 ### [Enterprise Dashboard](https://example-dashboard.com)
 - **Tech Stack**: Next.js, React.js, Express.js, MongoDB, Chart.js, ShadcnUI  
