@@ -13,68 +13,89 @@ Below, I'll provide a **High-Level Architecture** for your n8n automation, follo
 The automation will operate as a conversational AI agent, using n8n as the orchestrator, integrating with Facebook Messenger, an AI/LLM service, and your backend e-commerce system (product catalog, cart, orders, user state).
 
 ```mermaid
-graph TD
-    A[Facebook Messenger User] --> B{Messenger Webhook Trigger (n8n)};
+---
+config:
+  layout: dagre
+---
+flowchart TD
+ subgraph subGraph0["n8n Workflow - Core Loop"]
+        C["Webhook Verification If Node"]
+        B["B"]
+        D["Mark Seen & Typing On HTTP Request"]
+        E["Parse Message/Payload Set Node"]
+        F["Combine User Input Code Node"]
+        G["AI Intent Recognition LLM Node"]
+        H["Switch by Intent"]
+  end
+ subgraph subGraph1["n8n Workflow - Intent Branches"]
+        I["Product Search Branch"]
+        J["Add to Cart Branch"]
+        K["Select Variant Branch"]
+        L["Set Quantity Branch"]
+        M["View Cart Branch"]
+        N["Initiate Checkout Branch"]
+        O["Address Input Handling Branch"]
+        P["Order Confirmation/Creation Branch"]
+        Q["Order Cancellation Branch"]
+        R["Delivery Tracking Branch"]
+        S["Business Info/FAQ Branch"]
+        T["General Response Branch"]
+  end
+ subgraph subGraph2["External Systems"]
+        LLM["Large Language Model e.g., OpenAI Gemini"]
+        ECOM_API["E-commerce API Products"]
+        DB_USER_STATE["Database User State"]
+        COURIER_API["Courier Tracking API"]
+        KB["Knowledge Base Vector DB LLM"]
+  end
+ subgraph subGraph3["One-Time Setup Workflow"]
+        P_MENU["Set Persistent Menu HTTP Request"]
+        OM["One-time Manual Trigger"]
+  end
+    B -- Incoming Message/Postback --> C
+    C -- Valid --> D
+    D --> E
+    E --> F
+    F --> G
+    G -- Identified Intent --> H
+    H -- product_info/recommendation --> I
+    H -- add_to_cart_initial --> J
+    H -- select_variant --> K
+    H -- set_quantity --> L
+    H -- view_cart --> M
+    H -- proceed_to_checkout --> N
+    H -- address_input --> O
+    H -- confirm_address --> P
+    H -- order_cancel --> Q
+    H -- delivery_info --> R
+    H -- business_info --> S
+    H -- general_greeting/general_query --> T
+    G -- Queries --> LLM
+    I -- Queries --> ECOM_API
+    J -- Adds --> ECOM_API
+    K -- Fetches --> ECOM_API
+    L -- Updates --> ECOM_API
+    M -- Fetches --> ECOM_API
+    N -- Updates --> ECOM_API
+    O -- Updates --> DB_USER_STATE
+    P -- Creates/Updates --> ECOM_API & DB_USER_STATE
+    Q -- Updates --> ECOM_API
+    R -- Fetches --> COURIER_API
+    S -- Queries --> KB
+    I --> U["Format Product Carousel Templates"]
+    J -- If Variants --> V["Quick Replies for Variants"]
+    K --> W["Quick Replies for Quantity"]
+    L --> X["Add to Cart Confirmation"]
+    M --> Y["Cart Summary + Checkout Button"]
+    O --> Z["Address Confirmation + Buttons"]
+    P --> AA["Send Receipt Template"]
+    Q --> BB["Order Cancel Confirmation"]
+    R --> CC["Tracking Info + URL Button"]
+    S --> DD["AI Business Info Response"]
+    T --> EE["General AI Response"]
+    OM --> P_MENU
+    P_MENU --> B
 
-    subgraph n8n Workflow - Core Loop
-        B -- Incoming Message/Postback --> C[Webhook Verification (If Node)];
-        C -- Valid --> D[Mark Seen & Typing On (HTTP Request)];
-        D --> E[Parse Message/Payload (Set Node)];
-        E --> F[Combine User Input (Code Node)];
-        F --> G{AI Intent Recognition (LLM Node)};
-        G -- Identified Intent --> H{Switch by Intent};
-    end
-
-    subgraph n8n Workflow - Intent Branches
-        H -- product_info/recommendation --> I[Product Search Branch];
-        H -- add_to_cart_initial --> J[Add to Cart Branch];
-        H -- select_variant --> K[Select Variant Branch];
-        H -- set_quantity --> L[Set Quantity Branch];
-        H -- view_cart --> M[View Cart Branch];
-        H -- proceed_to_checkout --> N[Initiate Checkout Branch];
-        H -- address_input --> O[Address Input Handling Branch];
-        H -- confirm_address --> P[Order Confirmation/Creation Branch];
-        H -- order_cancel --> Q[Order Cancellation Branch];
-        H -- delivery_info --> R[Delivery Tracking Branch];
-        H -- business_info --> S[Business Info/FAQ Branch];
-        H -- general_greeting/general_query --> T[General Response Branch];
-    end
-
-    subgraph External Systems
-        G -- Queries --> LLM[Large Language Model (e.g., OpenAI, Gemini)];
-        I -- Queries --> ECOM_API[E-commerce API (Products)];
-        J -- Adds --> ECOM_API;
-        K -- Fetches --> ECOM_API;
-        L -- Updates --> ECOM_API;
-        M -- Fetches --> ECOM_API;
-        N -- Updates --> ECOM_API;
-        O -- Updates --> DB_USER_STATE[Database: User State];
-        P -- Creates/Updates --> ECOM_API & DB_USER_STATE;
-        Q -- Updates --> ECOM_API;
-        R -- Fetches --> ECOM_API/COURIER_API[Courier Tracking API];
-        S -- Queries --> KB[Knowledge Base (Vector DB / LLM)];
-    end
-
-    I --> U[Format Product Carousel (Templates)];
-    J -- If Variants --> V[Quick Replies for Variants];
-    K --> W[Quick Replies for Quantity];
-    L --> X[Add to Cart Confirmation];
-    M --> Y[Cart Summary + Checkout Button];
-    O --> Z[Address Confirmation + Buttons];
-    P --> AA[Send Receipt Template];
-    Q --> BB[Order Cancel Confirmation];
-    R --> CC[Tracking Info + URL Button];
-    S --> DD[AI Business Info Response];
-    T --> EE[General AI Response];
-
-    U, V, W, X, Y, Z, AA, BB, CC, DD, EE --> F_OFF[Typing Off (HTTP Request)];
-    F_OFF --> F_OUT[Send Messenger Response (HTTP Request)];
-    F_OUT --> B;
-
-    subgraph One-Time Setup Workflow
-        OM[One-time Manual Trigger] --> P_MENU[Set Persistent Menu (HTTP Request)];
-        P_MENU --> B;
-    end
 ```
 
 ---
