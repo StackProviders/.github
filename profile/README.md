@@ -1,4 +1,4 @@
-# Stack Provider - Modern Web, Desktop & Mobile Development, AI Integration Agency
+# Stack Provider - Modern Web, Desktop & Mobile Development, AI Automation Agency
 
 ![Stack Provider Banner](https://raw.githubusercontent.com/StackProviders/.github/refs/heads/main/StackProvider.com.png)
 
